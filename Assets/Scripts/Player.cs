@@ -23,7 +23,7 @@ public class Player : AnimatedEntity
 
     [Header("Animation Settings")] 
     public List<Sprite> idle;
-    public List<Sprite> runCycle; // Delete this
+    public List<Sprite> runCycle; 
 
     // Start is called before the first frame update
     void Start()
